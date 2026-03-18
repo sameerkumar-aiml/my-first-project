@@ -1,19 +1,19 @@
 # My First Project
 
 Hello 👋  
-I am Sameer Kumar.
+I am Sameer Kumar, a CSE AIML student.
+
+## Projects in this repo
+1. **hello.py** – My first code file  
+2. **intro.txt** – First text file  
+3. **number_guess.py** – Number Guessing Game in Python
 
 ## About Me
-- CSE AIML Student
-- Learning coding and development
-- Starting my GitHub journey
+- Learning coding and AI/ML  
+- Building projects on GitHub  
+- Goal: Become a skilled developer
 
-## Goals
-- Build projects
-- Learn AI/ML
-- Become a skilled developer
-
-## Tools I will learn
-- Python
-- Git & GitHub
+## Skills I am learning
+- Python  
+- Git & GitHub  
 - Machine Learning
