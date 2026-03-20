@@ -1,14 +1,19 @@
 import random
 
-print("Welcome to Number Guessing Game!")
-number = random.randint(1, 20)
+print("Welcome to the Name Guessing Game!")
+
+# 1. Create a list of names
+names = ["Lucknow", "Python", "Gemini", "Robot", "Aman"]
+
+# 2. Pick a random name from the list
+target_name = random.choice(names)
 guess = None
 
-while guess != number:
-    guess = int(input("Guess a number between 1 and 20: "))
-    if guess < number:
-        print("Too low!")
-    elif guess > number:
-        print("Too high!")
+while guess != target_name:
+    # 3. Input is already a string, so no need for int()
+    guess = input(f"Guess a name from {names}: ")
 
-print(f"Congratulations! You guessed it right: {number}")
+    if guess != target_name:
+        print("Incorrect! Try again.")
+
+print(f"Congratulations! You guessed it right: {target_name}")
